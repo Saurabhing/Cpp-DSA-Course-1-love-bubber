@@ -5,40 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Playlist Embed</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body { 
-	margin: 0;
-	 padding: 0;
-	 background-color: #333; /* Light black / dark gray background for the entire page */ 
-	color: #fff; font-family: Arial, sans-serif;
-	 } 
-	.container { 
-	width: 854px;
-	 margin: 20px auto;/* Center the container horizontally */ 
-	text-align: center;
-	 background-color: #444;/* Darker gray for the container background */ 
-	border-radius: 10px;
-	 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	 padding: 20px;
-	 } 
-	.container iframe { 
-	width: 100%;
-	 height: 480px;
-	 border: none;
-	 display: block;
-	 margin-bottom: 20px; /* Adjust this value to set the space between videos */
-	 border-radius: 10px;/* Enable lazy loading */
-	 loading: lazy;
-	 } 
-	.container iframe:last-child { 
-	margin-bottom: 0;/* Remove margin from the last iframe to avoid extra space */
-	 } h1 { 
-	text-align: center;
-	 padding: 20px;
- }
-    </style>
 </head>
 <body>
+    <div class="sidebar">
+        <div class="dropdown">
+            <select id="videoSelector" onchange="navigateToVideo()">
+                <option value="">Select a Video...</option>
+                <option value="index.html">Video 1-4</option>
+                <option value="section1.html">Video 5-8</option>
+                <option value="section2.html">Video 9-12</option>
+                <option value="section3.html">Video 13-16</option>
+                <option value="section4.html">Video 17-20</option>
+                <option value="section5.html">Video 21-24</option>
+                <option value="section6.html">Video 25-28</option>
+                <option value="section7.html">Video 29-32</option>
+                <option value="section8.html">Video 33-36</option>
+                <option value="section9.html">Video 37-40</option>
+                <option value="section10.html">Video 41-44</option>
+                <option value="section11.html">Video 45-48</option>
+                <option value="section12.html">Video 49-52</option>
+                <option value="section13.html">Video 53-56</option>
+                <option value="section14.html">Video 57-60</option>
+                <option value="section15.html">Video 61-64</option>
+                <option value="section16.html">Video 65-68</option>
+                <option value="section17.html">Video 69-72</option>
+                <option value="section18.html">Video 73-76</option>
+                <option value="section19.html">Video 77-80</option>
+                <option value="section20.html">Video 81-84</option>
+                <option value="section21.html">Video 85-88</option>
+                <option value="section22.html">Video 89-92</option>
+                <option value="section23.html">Video 93-96</option>
+                <option value="section24.html">Video 97-100</option>
+				<option value="section25.html">Video 101-104</option>
+				<option value="section26.html">Video 105-108</option>
+				<option value="section27.html">Video 109-116</option>
+				<option value="section28.html">Video 117-124</option>
+				<option value="section29.html">Video 125-132</option>
+				<option value="section30.html">Video 133-140</option>
+            </select>
+        </div>
+    </div>
+    <div class="content">
+        <h1 style="text-align: center;">YouTube Playlist Embed</h1>
+		<h1>Videos 1-4</h1>
     <div class="container">
         <iframe src="https://www.youtube.com/embed/WQoB2z67hvY" title="YouTube video player" allowfullscreen></iframe>
     </div>
@@ -51,253 +60,10 @@
     <div class="container">
         <iframe src="https://www.youtube.com/embed/dr-pLeJBr38" title="YouTube video player" allowfullscreen></iframe>
     </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/yjdQHb2elqI" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/bWrsk0QizEk" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/0fwrMYPcGQ0" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/8nNqk2NPbRA" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/sNrLlmOIn-c" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/oVa8DfUDKTw" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/QovOdd80A4s" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/YJeoQBevNVo" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/zD2Jg3alZV8" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/6z2HK4o8qcU" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/YTTdLgyqOLY" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/UdO2NeHB46c" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/vpltlIwq9OY" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/zOhUavxlzw4" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/7kIVfVY6Axk" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/WgMPrLX-zsA" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/MPvr-LmaZmA" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/Z7_nMTHROZo" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/HL9WcjdEqmI" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/Wdjr6uoZ0e0" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/1CdolnvxLs0" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/KdePjukNs98" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/ac7ii_XfoRI" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/YHwEIfrXZgE" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/rlpw7oi-bpE" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/P0UsAxtXq2Y" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/MMO2c57XHzM" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/LlqgWQgm58g" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/0TEvaAiqo8Y" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/_-2u4EPHD88" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/zg8Y1oE4qYQ" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/UntSI7G5h20" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/WyY2Af3k1xI" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/cdHEpbBVjRM" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/pUd_ubxlwIM" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/sNaHN4tZmRk" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/V0IgCltYgg4" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/tWnHbSHwNmA" title="YouTube video player" allowfullscreen></iframe
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/va3NEycUxsg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/GqtyVD-x_jY" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/BYCeh76OASc" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/i_5pvt7ag7E" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/b3GccK5_KSQ" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/q8gdBn9RPeI" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/vqS1nVQdCJM" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/JFtQP4itvqo" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/fi2vh0nQLi0" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/VxOFflTXlXo" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/7pgs-wT5d4c" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/ogmBt6f9hw8" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/aD7mBVnKFEU" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/HiRlTPf9aCg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/83mPr0i56Gg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/rM5EEA_rbNY" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/_6COl6V6mng" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/BmZnJehDzyU" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/lJLcqDsmYfg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/9u2BJfmWNEg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/lrSXKLmnMV8" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/OpwYmEBcPh0" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/W7uB9-TKfTg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/_gJ3to4RyeQ" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/5NiXlPrLslg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/f5BkKDTXABg" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/nHMQ33LZ6oA" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/s1d8UGDCCN8" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/QG0hE0R_ng4" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/ffE1xj51EBQ" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/XLdpy0_6MR4" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/2BdY9fixMrM" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/UeRUKRJvPa4" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/pDURIj98e0I" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/IGHyX15fLI8" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/18w8VduomfI" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/fqx8z3VepMA" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/NKJnHewiGdc" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/_9F2VgZcvdw" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <iframe src="https://www.youtube.com/embed/m6olKeiItrI" title="YouTube video player" allowfullscreen></iframe>
-    </div>
-    <div class="container"> <iframe src="https://www.youtube.com/embed/IFv1anmkOi0" title="YouTube video player" allowfullscreen></iframe> 
-    </div> 
-    <div class="container"> <iframe src="https://www.youtube.com/embed/Y6dOuGjwsxU" title="YouTube video player" allowfullscreen></iframe> 
-    </div> 
-    <div class="container"> <iframe src="https://www.youtube.com/embed/VTr3Nh7BadI" title="YouTube video player" allowfullscreen></iframe> 
-    </div> 
-    <div class="container"> <iframe src="https://www.youtube.com/embed/SK2S5lQegVg" title="YouTube video player" allowfullscreen></iframe> </div>
-    <div class="container"> <iframe src="https://www.youtube.com/embed/wjqSZy4pMT4" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/9wEwqNdOAVQ" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/8lWxaRviJBA" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/EaK6aslcC5g" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/b5kij1Akf9I" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/aJa3U-hydXc" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/1cSzxlhxOw8" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/Tl5qbEmEQyY" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/T_boOrr0rvk" title="YouTube video player" allowfullscreen></iframe> </div>
-        <div class="container"> <iframe src="https://www.youtube.com/embed/6XmzL04mlgQ" title="YouTube video player" allowfullscreen></iframe[_{{{CITATION{{{_1{](https://github.com/marco-tuzza/php-ajax-dischi/tree/769555e56a07e8632d36182a3c086291dcb6c82a/public%2Fphp%2Findex.php)
+    <div class="navigation">
+        
+        <button onclick="window.location.href='section1.html'">Next Videos</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
